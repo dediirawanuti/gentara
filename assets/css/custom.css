@@ -1,0 +1,20 @@
+@media (min-width: 640px) {
+	/* Atur lebar elemen footer dan posisi elemen-elemen di dalamnya */
+	.footer-container {
+		max-width: 960px; /* Sesuaikan dengan lebar layar yang diinginkan */
+		margin: 0 auto; /* Pusatkan footer di tengah */
+		padding: 0 20px; /* Berikan padding pada sisi kanan dan kiri */
+	}
+
+	.footer-column {
+		width: 50%; /* Bagi lebar footer menjadi dua kolom */
+	}
+}
+
+@media (min-width: 768px) {
+	/* Atur tata letak elemen-elemen di dalam footer untuk layar yang lebih besar */
+	.footer-container {
+		display: flex; /* Atur tata letak menjadi flexbox */
+		justify-content: space-between; /* Agar elemen-elemen dalam footer berada pada sisi kanan dan kiri */
+	}
+}
